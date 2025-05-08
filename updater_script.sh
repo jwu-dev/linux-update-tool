@@ -151,6 +151,7 @@ else
   exit 1
 fi
 
+echo "Thank you for using the Universal Linux Updater!" | tee -a "$LOG_FILE" # <-- NEW LINE
 echo "Universal Linux Updater Script finished." | tee -a "$LOG_FILE"
 echo "==================================================" >> "$LOG_FILE"
 echo "Log for script run ended at: $(date)" >> "$LOG_FILE"
